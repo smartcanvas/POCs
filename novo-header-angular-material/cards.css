@@ -1,0 +1,245 @@
+.sc-card-fixed-height{
+    margin-bottom: 24px;
+    background-color: #F9F9F9;
+
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.25);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.25);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.25);
+}
+
+
+
+
+
+    .sc-card-fixed-height-photo{
+        position: relative;
+        height: 100%;
+    }
+
+        .sc-card-fixed-photo-link{
+            text-decoration: none;
+        }
+
+            .sc-card-fixed-photo-source{
+                position: absolute;
+                top: -5px;
+                right: 10px;
+                background-color: #BBB;
+                color: #FFF;
+                padding: 2px 6px;
+                margin: 0;
+                font: normal normal 12px Roboto, sans-serif;
+                z-index: 2;
+                border-radius: 3px;
+            }
+
+            .sc-card-fixed-photo-photo-wrapper{
+                height: 180px;
+                overflow: hidden;
+                position: relative;
+            }
+
+                .sc-card-fixed-photo-photo-widescreen{
+                    width: 100%;
+                    min-height: 180px;
+                    vertical-align: middle;
+                }
+
+                .sc-card-fixed-photo-photo-crop-container{
+                    overflow: hidden;
+                    background-position: 50%;
+                    background-size: cover;
+                }
+
+            .sc-card-fixed-photo-wrapper-overflow{
+                height: 100px;
+                overflow: hidden;
+            }
+
+                .sc-card-fixed-photo-wrapper{
+                    display: table;
+                }
+
+                    .sc-card-fixed-photo-author{
+                        display: table-cell;
+                        *display: inline;
+                        *zoom:1;
+                        vertical-align: top;
+                        border-radius: 50%;
+                        width: 32px;
+                        height: 32px;
+                        margin: 22px 10px 20px 20px;
+                        border: 0;
+                    }
+
+                    .sc-card-fixed-photo-content-title,
+                    .sc-card-fixed-photo-content-summary{
+                        display: table-cell;
+                        *display: inline;
+                        *zoom:1;
+                        line-height: 20px !important;
+                        word-wrap: break-word;
+                        vertical-align: top;
+                        padding: 21px 20px 0 0;
+                        margin: 0;
+                        word-break: break-word;
+                    }
+                    
+                    .sc-card-fixed-photo-content-title{
+                        font: normal normal 16px Roboto, sans-serif;
+                        color: #333;
+                    }
+
+                    .sc-card-fixed-photo-content-summary{
+                        font: normal 300 16px Roboto, sans-serif;
+                        color: #666;
+                    }
+
+                    .sc-card-fixed-author-wrapper {
+                        display: table;
+                        > * {
+                          display: table-cell;
+                        }
+                    }
+
+                    .sc-card-fixed-author-wrapper > * {
+                        display: table-cell;
+                    }
+
+                    .sc-card-fixed-photo-author-infos{
+                        *zoom:1;
+                        height: 55px;
+                        overflow: hidden;
+                        vertical-align: top;
+                        padding: 24px 20px 0 0;
+                        margin: 0;
+                    }
+
+                        .sc-card-fixed-photo-author-name{
+                            margin: 0;
+                            font: normal 300 14px Roboto, sans-serif;
+                            color: #9B9B9B;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width: 190px;
+                        }
+
+                        .sc-card-fixed-photo-author-date{
+                            margin: 0;
+                            font: normal 300 12px Roboto, sans-serif;
+                            color: #9B9B9B;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+
+
+
+
+
+
+
+
+    .sc-card-fixed-bottom{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+
+    .sc-smart-user-activity-block .bl-ua-list{
+        border-top: 1px solid #f2f2f2;
+        margin: 0px;
+        padding: 16px 0;
+        list-style-type: none;
+        text-align: center;
+        height: 56px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    $CANVAS-FIXED-HEIGHT
+\*------------------------------------*/
+.sc-canvas-fixed-height{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 27px 0 24px 0;
+}
+
+@media only screen and (min-width : 200px) and (max-width : 728px) {
+    .sc-canvas-fixed-height{
+        padding: 27px 0 2% 0;
+    }
+}
+
+    .sc-canvas-fixed-height-container{
+        margin: 0 auto;
+        width: 1376px;
+    }
+
+    @media only screen and (min-width : 200px) and (max-width : 728px) {
+        .sc-canvas-fixed-height-container{
+            width: 98%;
+        }
+    }
+
+    @media only screen and (min-width : 728px) and (max-width : 1076px) {
+        .sc-canvas-fixed-height-container{
+            width: 688px;
+        }
+    }
+
+    @media only screen and (min-width : 1076px) and (max-width : 1496px) {
+        .sc-canvas-fixed-height-container{
+            width: 1032px;
+        }
+    }
+
+
+
+        @media only screen and (min-width : 200px) and (max-width : 728px) {
+            .sc-canvas-fixed-height-title{
+                width: 98%;
+                margin: 0 auto 18px auto;
+            }
+        }
+
+
+        .sc-canvas-fixed-height-container{
+
+        }
+
+            .sc-card-fixed-height{
+                width: 320px;
+                height: 372px;
+                margin: 24px 12px 0 12px;
+                display: inline-block;
+                *display: inline;
+                *zoom:1;
+                vertical-align: top;
+            }
+
+            @media only screen and (min-width : 200px) and (max-width : 728px) {
+                .sc-card-fixed-height{
+                    width: 100%;
+                    margin: 7px auto 0 auto;
+                }
+            }
+
+            
+
+        
+
